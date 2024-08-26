@@ -4,9 +4,11 @@
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
 	"scripts": {
-		"start": "node myApp.js"
+		"start": "node myApp.js",
+		"dev": "nodemon myApp.js"
 	},
 	"dependencies": {
+		"bcrypt": "^5.1.1",
 		"express": "^4.14.0",
 		"helmet": "3.21.3"
 	},
@@ -14,6 +16,7 @@
 		"node",
 		"hyperdev",
 		"express",
+		"bcrypt",
 		"freecodecamp"
 	],
 	"license": "MIT"
